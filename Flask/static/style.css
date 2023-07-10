@@ -1,0 +1,33 @@
+
+body{
+    color:rgb(255, 255, 255);
+    background: black
+}
+
+.Button{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: none;
+    padding: 20px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;  
+    box-shadow: 0 3px #999;
+    color: rgb(0, 0, 0);
+    opacity: 0.4;
+    transition: 0.3s;
+    font-size: large;
+}
+
+.Button:hover {opacity: 1}
+
+#red{background-color: red;}
+#orange{background-color: orange;}
+#yellow{background-color: yellow;}
+#green{background-color: green;}
+#blue{background-color: blue;}
+#violet{background-color: violet;}
+#gold{background-color: gold;}
+#clear{background-color: white;}

@@ -1,6 +1,0 @@
-import os 
-
-os.environ['BEARER_TOKEN'] = 'BQCUruHZ66m7HpjkCn-nTteqgDPoAmI2fUPAJaGHW0KdCfGx3qbSi5RxQgvEJBwSjf9gqB2WA2rN1V0XRZzflBa-dHwYqT5Rjoi0WDMF03PlN4SxiYotT9FPtE7jP_qkcSTEEcfBZzJAA2AitHYN1wxeph7Kr1O6ocd3iYUR9z0ukrdQma5LUurXZLDbsNy5PgqU'
-PASSWORD = os.environ.get('BEARER_TOKEN')
-
-print(PASSWORD)

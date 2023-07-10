@@ -1,0 +1,10 @@
+<form action="#" method="get">
+        <button type="submit" formmethod="post">Turn On LEDs</button>
+</form>
+{% extends "base.html" %}
+{% block title%} Turn ON LED {% endblock %}
+{% block content %}
+<form action="#" method="get"> 
+	<button type="submit" formmethod="post">Turn On LEDs</button>
+</form>
+{% endblock %}
