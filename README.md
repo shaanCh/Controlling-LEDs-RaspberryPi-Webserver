@@ -65,6 +65,8 @@ if __name___ == "__main__"
 ```
 ## Controlling the LED Lights
 
+Outside the Flask Directory, I had a different set of scripts that tested the functionality of the GPIO pins and LED strip
+
 ### Customize your website using HTML and CSS 
 ![LEDwebsite](https://github.com/shaanCh/Fun/assets/69170712/e0184fa4-b346-4c55-a88f-fa7909be7b54.png)
 
