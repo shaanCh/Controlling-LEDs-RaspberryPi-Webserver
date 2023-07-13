@@ -44,6 +44,24 @@ General Tip: 30pixels/m have LEDS much more spread out per meter than 60pixels/m
 </br>
 Notice there is no red wire connected to Raspberry Pi this is because the LED lights are getting power from the 5v power supply instead of the Raspberry Pi
 
+## Setting Up a Flask Webserver
+I recommend having basic knowledge of Flask and checking out this [Flask Tutorial on YouTube](https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX)
+
+To set up a basic Flask Webserver:
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def home():
+    return "hello home"
+
+if __name___ == "__main__"
+    app.run()
+  
+```
+
 
 ### Customize your website using HTML and CSS 
 ![LEDwebsite](https://github.com/shaanCh/Fun/assets/69170712/e0184fa4-b346-4c55-a88f-fa7909be7b54.png)
