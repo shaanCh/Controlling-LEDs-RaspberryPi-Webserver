@@ -47,6 +47,8 @@ Notice there is no red wire connected to Raspberry Pi this is because the LED li
 ## Setting Up a Flask Webserver
 I recommend having basic knowledge of Flask and checking out this [Flask Tutorial on YouTube](https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX)
 
+You can use any editor of your choice, but please ensure it's in the directory you want it to be in. For this project, I kept the Flask script inside the "Flask_Webserver_LEDlights" directory
+
 To set up a basic Flask Webserver:
 ```
 from flask import Flask
@@ -61,7 +63,7 @@ if __name___ == "__main__"
     app.run()
   
 ```
-
+## Controlling the LED Lights
 
 ### Customize your website using HTML and CSS 
 ![LEDwebsite](https://github.com/shaanCh/Fun/assets/69170712/e0184fa4-b346-4c55-a88f-fa7909be7b54.png)
