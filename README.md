@@ -50,7 +50,7 @@ I recommend having basic knowledge of Flask and checking out this [Flask Tutoria
 You can use any editor of your choice, but please ensure it's in the directory you want it to be in. For this project, I kept the Flask script inside the "Flask_Webserver_LEDlights" directory
 
 To set up a basic Flask Webserver:
-```
+```ruby
 from flask import Flask
 
 app = Flask(__name__)
@@ -73,7 +73,7 @@ Copy and paste the code and try it for yourself!
 - Make sure `LED_PIN = 18` is the right pin number
 
 This is the original code:
-```
+```ruby
 #!/usr/bin/env python3
 # NeoPixel library strandtest example
 # Author: Tony DiCola (tony@tonydicola.com)
@@ -200,7 +200,7 @@ The neopixel library is a different library to individually customize each pixel
 Neopixel does require root access so make sure you have that
 
 To turn on the first pixel of your strip check out the OneLEDLightup.py script or copy this code:
-```
+```ruby
 import board
 import neopixel
 import time
@@ -215,7 +215,20 @@ Make sure `pixels = neopixel.NeoPixel(board.D18, 150)` is the right number pin(D
 You can change the RBG color values to your choice! 
 
 ## Combining Flask and LEDs
+Inside your directory:
+- Create the Python Script for the Flask web server
+- create a templates folder to reference the HTML files
+- create a static folder to reference the CSS files
 
+The ***ControlLED.py*** script effectively combines flask and strandtest.py into one but there are a few key components to make correct
+1. `color = request.form["color"]` the variable must match the HTML "name" element of the buttons</br>
+   For example, color matches the name="color" value
+   ```
+   <form action="#" method="post">
+                <button class="Button" id="red" name="color" value="red" type="submit">Red</button>
+        </form>
+   ``` 
+2. `if color == "red": ` for each "if" statement, color must equal the value element of the HTML file as you can see above
 ### Customize your website using HTML and CSS 
 ![LEDwebsite](https://github.com/shaanCh/Fun/assets/69170712/e0184fa4-b346-4c55-a88f-fa7909be7b54.png)
 
