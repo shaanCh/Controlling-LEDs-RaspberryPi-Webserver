@@ -229,15 +229,17 @@ The ***ControlLED.py*** script effectively combines flask and strandtest.py into
         </form>
    ``` 
 2. `if color == "red": ` for each "if" statement, color must equal the value element of the HTML file as you can see above
-### Customize your website using HTML and CSS 
 
 This isn't the most efficient way of handling multiple POST requests especially if you have multiple sources of requests. For this project, it's simple and very easy to learn
 
 An efficient way of handling multiple requests would be an **API**
 
-![LEDwebsite](https://github.com/shaanCh/Fun/assets/69170712/e0184fa4-b346-4c55-a88f-fa7909be7b54.png)
+### Customize your website using HTML and CSS 
+This is an example of what my website looked like!
+
+<img src="https://github.com/shaanCh/Fun/assets/69170712/93819718-4d80-44ef-a901-a9dae71b2b45">
 
 
 
 ### WS2812b LED lights in Action!
-![ledlights](https://github.com/shaanCh/Fun/assets/69170712/6aa90ce9-0212-430f-a0e0-e38fbc8dfcb8)
+<img src="https://github.com/shaanCh/Fun/assets/69170712/6aa90ce9-0212-430f-a0e0-e38fbc8dfcb8" width=50% hedihgt=50%>
