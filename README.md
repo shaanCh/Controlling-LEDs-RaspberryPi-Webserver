@@ -243,3 +243,13 @@ This is an example of what my website looked like!
 
 ### WS2812b LED lights in Action!
 <img src="https://github.com/shaanCh/Fun/assets/69170712/6aa90ce9-0212-430f-a0e0-e38fbc8dfcb8" width=50% hedihgt=50%>
+
+
+### Helpful Links
+[Control Multiple Fully-Addressable WS2812B RGB LED Strips with a Raspberry Pi Single Board Computer](https://core-electronics.com.au/guides/raspberry-pi/fully-addressable-rgb-raspberry-pi/)</br>
+[Learn to Program Custom LED Lights](https://www.temposlighting.com/guides/how-to-add-custom-leds-to-any-project)</br>
+[CONTROLLING WS2812B LEDS WITH A RASPBERRY PI](https://www.thegeekpub.com/16187/controlling-ws2812b-leds-with-a-raspberry-pi/)</br>
+[Flask Youtube Tutorials](https://www.youtube.com/watch?v=mqhxxeeTbu0&list=PLzMcBGfZo4-n4vJJybUVV3Un_NFS5EOgX)</br>
+[AdaFruit NeoPixel Github](https://github.com/adafruit/Adafruit_CircuitPython_NeoPixel)</br>
+[NeoPixel on Raspberry Pi](https://learn.adafruit.com/neopixels-on-raspberry-pi/python-usage)
+
