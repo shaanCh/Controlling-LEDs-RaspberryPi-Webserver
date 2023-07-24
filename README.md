@@ -37,10 +37,10 @@ General Tip: 30pixels/m have LEDS much more spread out per meter than 60pixels/m
 1. Connect the negative(white) and the positive(red) wire to the DC barrel jack and screw it down -the jack should have (+) and (-) labels to ensure you are putting wires in the right terminal
 2. Connect the male side of the white jumper wire to the white wire port of the LED strip
 3. Connect the male side of the green jumper wire to the green wire port of the LED strip
-<img src="https://github.com/shaanCh/Controlling-Ws2812bLEDs-RaspberryPi/assets/69170712/12f12665-12ec-464b-b5d3-8583d29e6808" width=40% height=30%></br>
+<img src="https://github.com/shaanCh/Controlling-Ws2812bLEDs-RaspberryPi/assets/69170712/73e0f5c3-88a9-4509-9c7a-8eb775af6fd2" width=40% height=30%></br>
 4. Connect the female side of the white jumper wire to the ground pin of the Raspberry Pi (Physical Pin #6)
 5. Connect the female side of the green jumper wire to GPIO pin number 18
-<center><img src="https://github.com/shaanCh/Fun/assets/69170712/841235e1-213f-430f-a561-3b5d9747a08d" width=50% height = 50%></center>
+<center><img src="https://github.com/shaanCh/Controlling-Ws2812bLEDs-RaspberryPi/assets/69170712/1ac52167-ca13-4a0d-86bb-dc7873735d04" width=50% height = 50%></center>
 </br>
 Notice there is no red wire connected to Raspberry Pi this is because the LED lights are getting power from the 5v power supply instead of the Raspberry Pi
 
@@ -237,12 +237,12 @@ An efficient way of handling multiple requests would be an **API**
 ### Customize your website using HTML and CSS 
 This is an example of what my website looked like!
 
-<img src="https://github.com/shaanCh/Fun/assets/69170712/93819718-4d80-44ef-a901-a9dae71b2b45">
+<img src="https://github.com/shaanCh/Controlling-Ws2812bLEDs-RaspberryPi/assets/69170712/2d75ec52-c5eb-4dab-b1cf-ece1578dda55">
 
 
 
 ### WS2812b LED lights in Action!
-<img src="https://github.com/shaanCh/Fun/assets/69170712/6aa90ce9-0212-430f-a0e0-e38fbc8dfcb8" width=50% hedihgt=50%>
+<img src="https://github.com/shaanCh/Controlling-Ws2812bLEDs-RaspberryPi/assets/69170712/a91fc182-0ea6-43eb-a8df-45eccc22c6fc" width=50% hedihgt=50%>
 
 
 ### Helpful Links
