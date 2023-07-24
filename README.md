@@ -37,7 +37,7 @@ General Tip: 30pixels/m have LEDS much more spread out per meter than 60pixels/m
 1. Connect the negative(white) and the positive(red) wire to the DC barrel jack and screw it down -the jack should have (+) and (-) labels to ensure you are putting wires in the right terminal
 2. Connect the male side of the white jumper wire to the white wire port of the LED strip
 3. Connect the male side of the green jumper wire to the green wire port of the LED strip
-<img src="https://github.com/shaanCh/Controlling-Ws2812bLEDs-RaspberryPi/assets/69170712/85c74336-3ee8-4603-9a2b-7cb8eea611b6" width=40% height=30%></br>
+<img src="https://github.com/shaanCh/Controlling-Ws2812bLEDs-RaspberryPi/assets/69170712/12f12665-12ec-464b-b5d3-8583d29e6808" width=40% height=30%></br>
 4. Connect the female side of the white jumper wire to the ground pin of the Raspberry Pi (Physical Pin #6)
 5. Connect the female side of the green jumper wire to GPIO pin number 18
 <center><img src="https://github.com/shaanCh/Fun/assets/69170712/841235e1-213f-430f-a561-3b5d9747a08d" width=50% height = 50%></center>
